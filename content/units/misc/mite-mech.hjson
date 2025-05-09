@@ -1,0 +1,30 @@
+name: Mite
+description: Transports materials from one area to another
+flying: false
+speed: 0.65
+health: 150
+armor: 2
+
+// legs
+legStraightness: .5
+legSpeed: 0.7
+stepShake: 0
+legCount: 4
+legLength: 8
+lockLegBase: true
+legContinuousMove: true
+legExtension: -2
+legBaseOffset: 3
+legMaxLength: 1.1
+legMinLength: 0.2
+legLengthScl: .96
+legForwardScl: 1.1
+legGroupSize: 3
+rippleScale: 0.2
+legMoveSpace: 1
+allowLegStep: true
+hovering: true
+legPhysicsLayer: false
+
+shadowElevation: 0.1
+groundLayer: 74
